@@ -58,10 +58,10 @@ public class MailSender {
          String name;
                 String host = "smtp.gmail.com";
 		String port = "587";
-		String mailFrom = "rahul.csi.dit@gmail.com";    //email_id
-		String password = "I3VEC$00";   //password
-                String subject = "Hacked";      
-		String message = "Hello,"+"/n"+" Hope you are doing well. Tell your friend he is hacked. Now its your turn. Runnnnn!!! HAhaHa!";
+		String mailFrom = "xyz@gmail.com";    //email_id
+		String password = "pass";   //password
+                String subject = "Subject";      
+		String message = "Hello,";
 
         MailSender mailer = new MailSender();
          
